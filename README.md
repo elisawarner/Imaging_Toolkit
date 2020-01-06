@@ -12,6 +12,10 @@ This code is designed to help create an easy-to-use method for image preprocessi
 ## Patch Extractor
 An easy method for patch sampling, which requires only the changing of 5 hyperparameters to run the code.
 
+### What to Expect:
+* **Input:** a folder of histology slide images
+* **Output:** a dictionary of patches by image and an output folder of subfolders, where each subfolder represents an image and every file within is a patch.
+
 ### Requirements:
 * `openslide` : to manipulate histology images  
 * `import_ipynb` : to access `patch_functions.ipynb`  
