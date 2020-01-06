@@ -28,7 +28,7 @@ More info on Anaconda: https://www.anaconda.com/distribution/
 More info on pip: https://pip.pypa.io/en/stable/reference/pip_download/
 
 ### How to Use:
-Patch Extractor assumes you are extracting NxN tiles from a histology image that can be opened with openslide. There are four hyperparameters for this code:  
+Patch Extractor assumes you are extracting NxN tiles from a histology image that can be opened with openslide. There are five hyperparameters for this code:  
 1. `FILETYPE` : [str] the file extension of your image (the code will only look for files with this file extension)  
 2. `FILE_DIR` : [str] the directory of images. It is assumed that there exists a folder of images and that the images are not in subfolders.  
 3. `OUT_DIR` : [str] the name of the directory for the output. It does not have to exist yet (the program will create the directory). The structure of the output directory will be a folder of subfolders, where each subfolder represents an original histology image, and within that subfolder will contain all the patches for the specified image.  
