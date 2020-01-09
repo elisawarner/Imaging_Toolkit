@@ -3,7 +3,7 @@
 **Last Updated:** Jan 06, 2020  
 
 ## Description:
-This code is designed to help create an easy-to-use method for image preprocessing. It is for use with Python 3.6.
+This code is designed to help create an easy-to-use method for image preprocessing. It is for use with Python 3.6. It was written specifically to work with Aperio .SVS files, but if your file type works in a similar way this should work too.
 
 ## Files Included:
 * `patch_extractor.ipynb` : Extracts patches from histology slides
