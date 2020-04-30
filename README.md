@@ -1,9 +1,14 @@
 # Imaging Toolkit README
 **Author:** Elisa Warner  
-**Last Updated:** Jan 06, 2020  
+**Last Updated:** April 30, 2020  
 
 ## Description:
 This code is designed to help create an easy-to-use method for image preprocessing. It is for use with Python 3.6. It was written specifically to work with Aperio .SVS files, but if your file type works in a similar way this should work too.
+
+## Updates:
+* 04/30/2020 v2: Code was updated to support folders with large volumes of histopathology images. This fixes a bug error which would cause the kernel RAM to throw an out-of-memory error.  
+* 04/30/2020 v2: Enabled the use of error catching for files which cannot be processed. Users can fiew the failed files in a separate cell.  
+* 04/30/2020 v2: Imaging of the patches at the end prevents an error which occurs if the number of extracted patches < 100.  
 
 ## Files Included:
 * `patch_extractor.ipynb` : Extracts patches from histology slides
